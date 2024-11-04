@@ -1,0 +1,918 @@
+/* General style */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+
+}
+ul{list-style-type: none; ;}
+
+a{
+text-decoration: none;
+color: #FFFFFF;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0.9375px;
+
+}
+img{width: 100%;}
+
+.container{
+    margin-left: 100px;
+    width: 90%;
+}
+p{
+    font-weight: 400px;
+    font-size: 16px;
+   
+    
+}
+
+
+.links > a{
+ width: 110px;
+height:38 ;
+border-radius: 5px;
+border-bottom: 3px;
+padding-block: 8px;
+padding-inline: 28px;
+gap: 10px;
+}
+h2{
+    font-size:42px ;  
+    padding-bottom: 20px;
+}
+
+/* Nav style */
+nav{
+width: 100%;
+  height:86px ;
+  padding-inline: 150px;
+  padding-block: 16px;
+  display: flex;
+ justify-content: space-between;
+
+background-color: #0B9586;
+color: white;
+margin-top: 0;
+
+}
+
+.links{
+    width: 506px;
+    height: 38px;
+    display: flex;
+    gap: 8px;
+
+}
+
+.navImg{
+    width: 157px;
+    height:54px
+}
+.navImg>img{
+  width: 100%;
+    height: 100%;
+ background-size: cover;
+ 
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+
+/* MainPage style */
+main{
+    background-image: url(images/solar-panels-meadow\ 1.png);
+    background-size: cover;
+   height: 650px;
+ 
+   position: relative;
+   
+}
+.layer{
+    background: linear-gradient(267.36deg, rgba(0, 0, 0, 0.7) 2.2%, rgba(0, 0, 0, 0.182) 58.17%);
+position: absolute;
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+align-content: center;
+z-index: 1;
+}
+.mainContent{
+    width: 729px;
+    height: 305px;
+    margin: auto;
+    color: #FFFFFF;
+    justify-self: center;
+  
+    
+  
+}
+.mainContent>*{
+    margin-top: 12px;
+}
+.mainContent>h1{
+font-size: 52px;
+font-weight:600px ;}
+
+.mainContent>p{
+    font-weight:600px ;
+    font-size: 20px;
+    padding-bottom: 5px;
+    
+}
+button{
+border-radius:109px;
+width: 208px;
+height: 41;
+padding-block: 12px;
+padding-inline:34px;
+font-size: 14px;
+letter-spacing: 8%;
+border: none;
+margin-top: 10px;
+}
+main .btn1{
+    background-color:  #3CAB90;
+    color: #FFFFFF
+    
+    ;
+}
+ .btn2{
+ 
+    background-color:  #FFBB1C;
+    
+}
+
+/* Section1 */
+.firstSection{
+    padding-block: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fSectionContent{ width: 594px;
+    height: 476;
+  }
+
+.fSectionContent>img{
+    width: 100%;
+
+}
+.imgContent{
+    position: relative;
+  
+    ;
+
+}
+.imgLayer{
+    width:266px ;
+    height: 208px;
+    padding-block: 24px;
+    padding-inline:30px;
+    border-radius: 12px;
+    background-color:#FFBB1C;
+    z-index: 1;
+    position: absolute;
+    bottom: 5%;
+    left: -8%;
+  
+}
+.fSectionContent>ul>li{
+    padding-top: 20px;
+}
+.fSectionContent>*{
+    padding-top: 20px;
+}
+.fSectionContent>p{
+    color:  #475467;
+    ;
+}
+span{
+    color: #84BD3A;
+    font-weight: 700px;
+    font-size: 20px;
+}
+
+/* Second Section */
+.sSection{
+    background-image: url(images/8116\ 1.png);
+    background-size: cover;
+    height: 505px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.sSectionContent>p{
+    width: 678px;
+    font-weight: 500px;
+    font-size: 20px;
+}
+.sSectionContent>*{
+    padding-top: 20px;
+}
+
+/* Thiird section */
+.tSection{
+    padding-bottom: 80px;
+}
+.tSection p{
+    color:  #475467;
+}
+.tSection .head{
+    width:936px;
+    text-align: center;
+    margin-inline:auto;
+    padding-top: 80px;
+
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    width: 358.67px;
+    height: 454px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 30px 0px #0000000D;
+   margin-top: 20px;
+}
+.card h3{padding-bottom: 30px; padding-top: 20px;}
+.card .content{padding-left: 20px;}
+.card a{
+    color:#3CAB90;
+    padding-top: 10px;
+}
+
+
+
+/* Section four */
+.fSection .header{
+    width: 100%;
+    height: 505px;
+    background-image: url(images/8116\ 1\ \(1\).png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    text-align: center;
+}
+.fSection .header>div{
+    width: 858px;
+    height: 311px;
+    padding: 44px;
+    border-radius: 12px;
+    backdrop-filter: blur(24px)
+
+}
+
+/* Section five */
+.fiveSection .container {
+    display: flex;
+    justify-content: space-between;
+    
+ 
+}
+.fiveSection h2{
+    margin-top: 20px;
+}
+.fiveSection p{
+    margin-bottom: 20px;
+    font-weight: 400px;
+    font-size: 18px;
+    color: #475467;
+}
+.fiveSection img{
+   height:106px;
+}
+.fiveSection .card{
+   padding: 20px;
+   background-color:  #3CAB900D;
+   border: 1px solid #3CAB90
+   ;
+   box-shadow: 0px 4px 30px 0px #0000000D;
+ 
+
+}
+
+.fiveSection .card a {
+    font-size: 16px;
+    text-align: center;
+}
+.fiveSection .card i {
+  font-size: 15px;
+}
+.fiveSection .card img{
+    background-color:  #3CAB9026;
+    ;
+    ;
+}
+.fiveSection{padding-top: 24px;}
+
+.fiveSection p{
+  font-size: 18px;
+}
+
+
+/* Sex section */
+.sixSection .cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+
+/* Seven Section */
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    width:708px;
+    height: 443px;
+
+    border-radius: 24px;
+    background-color: #3CAB900F;
+    ;
+   
+  }
+
+  /* Slides */
+  .mySlides {
+    padding: 40px;
+    height: 100%;
+   justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+ 
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next { 
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+  
+
+    width: 72px;
+    height: 8px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    padding-top: 40px;
+
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    width: 8px;
+    height: 8px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+ 
+    margin-right: auto;
+    margin-left: auto;
+
+  }
+  
+  
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+  
+  /* Add a blue color to the author */
+.auth{
+    max-width: 628px;
+    height:60px;
+    display: flex;
+   
+}
+.auth img{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    padding-right: 5px;
+}
+.auth>div{
+   margin-block: auto;
+}
+.auth .arrows{
+    
+    margin-left: auto;
+
+}
+.arrows i{
+    font-size: 20px;
+    height:48px ;
+    width: 48px;
+    color: #1C1C1C;
+  border: 0.5px solid #1C1C1C;
+  border-radius: 50%;
+  text-align: center;
+padding-top: 12px;
+
+
+}
+
+
+
+  .sevSection{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 80px;}
+
+  .sevSection>div{
+
+   margin-block: auto;
+
+  }
+.sevContent{
+    width: 516px;
+    height: 216px;
+
+}
+.sevContent>h4{
+    padding-bottom: 52PX;
+    font-weight: 700px;
+    font-size: 16px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #3CAB90;
+    ;
+}
+.sevContent>P{
+    font-size: 24px;
+}
+.slider{
+    width: 708px;
+    height: 443px;
+    border-radius: 24px;
+    padding: 40px;
+
+   
+   
+}
+.seven{
+ 
+    height: 100%;
+}
+.fa-solid{color:#3CAB90;font-size: 40px;}
+
+
+
+
+
+
+
+/* Footer */
+
+ .logo-footer {
+    margin-bottom: 40px;
+ }
+ footer ,.footerExtend {
+        color: #FFFFFF;
+        background-color: #283646;
+        padding-top: 80px;
+       
+        
+ }
+ footer p, a {
+font-size: 12px;
+font-family: 'Roboto', sans-serif;
+}
+footer h6 {
+font-family: 'Playfair Display', serif;
+margin-bottom: 40px;
+position: relative;
+}
+.form-footer:after {
+position: absolute;
+content: "";
+background: grey;
+width: 100%;
+height: 1px;
+left: 0;
+bottom: -20px;
+}
+ .btn-footer {
+             color: grey;
+          
+            text-decoration: none;
+            border: 1px solid;
+            border-radius: 43px;
+            font-size: 13px;
+            padding: 7px 30px;
+            line-height: 47px;
+ }
+ .form-footer{
+    width: 408px;
+    height: 82px;
+  
+ 
+    
+ }
+ .form-footer>p{
+   padding-bottom: 10px;
+ 
+    
+ }
+
+.form-footer input[type="text"] {
+    border: none;
+border-radius: 16px 0 0 16px;
+outline: none;
+padding-left: 10px;
+height: 48px;
+width: 406px;
+position: relative;
+border-radius: 38px ;
+
+
+}
+
+.form-footer input[type="button"] {
+border: none;
+background:#232323;
+color: #fff;
+outline: none;
+border-radius: 109pc;
+padding: 2px 12px;
+background-color: #FFBB1C;
+height: 48px;
+width:147px;
+position: absolute;
+z-index: 2;
+right: 0;
+
+;
+}
+ .social .fa {
+color: grey;
+font-size: 22px;
+padding: 10px 15px;
+background: #3c3c3c;
+}
+ footer ul li {
+list-style: none;
+display: block;
+width: 47px;
+height: 24px;
+}
+footer ul  {
+padding-left: 0;
+display: flex;
+justify-content: space-between;
+}
+footer ul  li a{
+text-decoration: none;
+text-decoration:none;
+
+}
+
+.logo-part {
+border-right: 1px solid grey;
+height: 100%;
+}
+.firsSecFooter{
+    width: 499px;
+    height: 126px;
+}
+footer .container .content{
+    display: flex;
+    justify-content: space-between;
+       position: relative;
+}
+
+.footerExtend .container{
+    display: flex;
+    justify-content: space-between;
+}
+.footerExtend{
+    padding-bottom: 80px;
+    color: #92989F;
+    font-weight: 400px;
+    font-size: 12px;
+}
+.firsSecFooter img {width: 185px;
+    height: 64px;
+margin-bottom: 40px;}
+
+h1, h2 {
+    margin: 0; /* Reset default margins */
+    text-align: center; /* Center align titles */
+    width: 100%; /* Ensure full width for centering */
+}
+
+/* Responsive adjustments for smaller screens */
+
+/* Tablet screens (up to 992px) */
+@media (max-width: 992px) {
+    /* Avoid x-direction scroll */
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Stack navigation links and contact vertically */
+    .links, .contact {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 1rem 0; /* Add padding for better spacing */
+    }
+
+    /* Stack first section content */
+    .firstSection {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-block: 40px;
+    }
+
+    /* Center image layer in first section */
+    .imgLayer {
+        width: 180px;
+        height: 140px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* Adjust font sizes for readability */
+    h1 {
+        font-size: 36px;
+        text-align: center; /* Center align h1 */
+        width: 100%; /* Ensure full width for centering */
+    }
+
+    h2 {
+        font-size: 28px;
+        text-align: center; /* Center align h2 */
+        width: 100%; /* Ensure full width for centering */
+    }
+
+    p, a, .card a ,  .card p {
+        font-size: 14px;
+        text-align: center; /* Center align paragraphs */
+        margin: 0.5rem 0; /* Add margin for spacing */
+        max-width: 90%; /* Limit width of paragraphs */
+    }
+
+    /* Adjust card layout for a single column display */
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        width: 100%; /* Ensure full width */
+    }
+
+    .card {
+        width: 90%;
+        max-width: 350px;
+        margin: 1rem 0; /* Add margin for card spacing */
+    }
+
+    /* Section five and seven - stack items vertically and center */
+    .fiveSection .container, .sevSection {
+        flex-direction: column;
+        align-items: center; /* Center content */
+        text-align: center; /* Center text */
+    }
+
+    .fiveSection .card, .sevSection > div, .fiveSection .container > div {
+        width: 90%;
+        max-width: 350px;
+        margin: 1rem 0; /* Add margin for spacing */
+    }
+
+    /* Center footer content */
+    footer .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+        padding: 1rem; /* Add padding for better spacing */
+    }
+
+    .mySlides p{
+       font-size: 14px;
+       width: fit-content;
+       
+    }
+    .ourValues, .solarKit {
+        display: flex; /* Use flexbox for alignment */
+        flex-direction: column; /* Stack vertically */
+        align-items: center; /* Center content */
+        text-align: center; /* Center text */
+        padding: 20px;
+      
+    }
+    .ourValues p ,.solarKit p{
+        font-size: 16px;
+    }
+    
+
+}
+
+/* Mobile screens (up to 768px) */
+@media (max-width: 768px) {
+    /* Resize logo in nav */
+    .navImg {
+        width: 100px;
+    }
+
+    .navImg img {
+        width: 100%;
+    }
+
+    nav, footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    /* Adjust font sizes further */
+    .mainContent h1 {
+        font-size: 30px;
+        text-align: center; /* Center align h1 */
+        width: 100%; /* Ensure full width for centering */
+    }
+
+    h2 {
+        font-size: 24px;
+        text-align: center; /* Center align h2 */
+        width: 100%; /* Ensure full width for centering */
+    }
+
+    p, a, .card a {
+        font-size: 13px;
+        text-align: center; /* Center align paragraphs */
+        margin: 0.5rem 0; /* Add margin for spacing */
+        max-width: 90%; /* Limit width for better readability */
+    }
+
+    /* Stack cards for mobile view */
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+        margin: 1rem 0; /* Add margin for card spacing */
+    }
+
+    /* Section five and seven full width for mobile */
+    .fiveSection .container, .sevSection {
+        flex-direction: column;
+        align-items: center; /* Center content */
+    }
+
+    .fiveSection .card, .sevSection > div {
+        width: 100%;
+        max-width: 320px;
+        margin: 1rem 0; /* Add margin for spacing */
+    }
+
+    /* Footer adjustments */
+    footer .container h2 {
+        font-size: 20px; /* Ensure smaller h2 */
+    }
+
+    footer .container p {
+        font-size: 12px; /* Smaller font for paragraph */
+    }
+
+}
+
+/* Small mobile screens (up to 480px) */
+@media (max-width: 480px) {
+    /* Scale down text sizes */
+    h1 {
+        font-size: 24px;
+        text-align: center; /* Center align h1 */
+        width: 100%; /* Ensure full width for centering */
+    }
+
+    h2 {
+        font-size: 20px;
+        text-align: center; /* Center align h2 */
+        width: 100%; /* Ensure full width for centering */
+    }
+
+    p, a, .card a {
+        font-size: 12px;
+        text-align: center; /* Center align paragraphs */
+        margin: 0.5rem 0; /* Add margin for spacing */
+        max-width: 90%; /* Limit width for better readability */
+    }
+
+    .mainContent p {
+        font-size: 14px;
+    }
+
+    /* Adjust padding and make sections take up full width */
+    .firstSection, .sSection, .tSection, .fiveSection, .sevSection {
+        padding: 1rem;
+        flex-direction: column; /* Stack vertically */
+        align-items: center; /* Center items */
+    }
+
+    /* Ensure all sections, cards, and footer elements span the full width */
+    .fSectionContent, .imgContent, .card, .fiveSection .container > div, .sevSection > div {
+        width: 100%;
+    }
+
+    /* Center footer content fully on small screens */
+    footer .container {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 1rem; /* Add padding for spacing */
+    }
+}
+
+.ourValues p ,.solarKit p{
+    font-size: 13px;
+    text-align: center;
+}
+
+/* Ensure the background image for sections fits well */
+.secondSection {
+    background: url('path_to_your_image.jpg') no-repeat center center; /* Adjust path accordingly */
+    background-size: cover; /* Cover the entire section */
+    height: 400px; /* Adjust height as needed */
+}
+
+/* Centering for section seven */
+.sevSection {
+    display: flex; /* Allow flex display */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center all content */
+    text-align: center; /* Center text */
+}
+
+/* Additional adjustments for section seven */
+.sevSection > div {
+    display: flex; /* Flex layout for internal div */
+    flex-direction: column; /* Stack content */
+    align-items: center; /* Center content */
+    width: 100%; /* Full width */
+    padding: 20px; /* Padding for internal div */
+}
+
+/* Styles for .myslides */
+.myslides {
+    width: 100%; /* Make sure the slides take full width */
+    height: auto; /* Allow the height to adjust based on content */
+    overflow: hidden; /* Prevent overflow */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the slides horizontally */
+    align-items: center; /* Center the slides vertically */
+}
+
+/* Media Queries for Responsiveness of .myslides */
+@media (max-width: 768px) {
+    .myslides {
+        flex-direction: column; /* Stack slides vertically */
+        padding: 10px; /* Add padding for better spacing */
+    }
+
+    .myslides img {
+        width: 100%; /* Make images responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
